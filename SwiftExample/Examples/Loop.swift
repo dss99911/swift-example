@@ -87,6 +87,11 @@ class Loop {
         }
         print(largest)
         // Prints "25"
+
+        let array = [1,2,3]
+        for (index, number) in array.enumerated() {
+            print ("\(index):\(number)")
+        }
     }
 
     func whiles() {

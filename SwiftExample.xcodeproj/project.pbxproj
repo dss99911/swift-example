@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		217DE050652E8FC728AC1168 /* OpaqueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217DE242A0949E0B10BBB210 /* OpaqueType.swift */; };
 		217DE08A7EA1F24487A8291D /* SwiftExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 217DEADB93312CAF0258EFB6 /* SwiftExample.xcdatamodeld */; };
 		217DE092CE779091689A36BE /* Sets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217DEB10BF76E8369ECE85DE /* Sets.swift */; };
 		217DE129BC50F4A97C7AA031 /* Defer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217DE5E1C308810AE9BA6B20 /* Defer.swift */; };
@@ -29,6 +30,7 @@
 		217DEAA619A55E0BA5BDB1AA /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217DE756DCC3DF14D523547C /* Enum.swift */; };
 		217DEAF4AFF173AAD2C0A2D8 /* Comparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217DE8719C45D375A55B6DC4 /* Comparison.swift */; };
 		217DEB11271F8803F23B131A /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217DE0BB091F6B30651D2954 /* Optional.swift */; };
+		217DEB76C81BE2E54CE016D7 /* Static.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217DE4E68D2518237246477A /* Static.swift */; };
 		217DEB7AC2023507A551DE86 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217DED3C25E943243DEE53C5 /* Error.swift */; };
 		217DEB9AFDDA9039E9F6F875 /* AccessControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217DE94CF759A6D6980CCBBC /* AccessControl.swift */; };
 		217DEBC91CBF2542571C40E8 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217DEE5F3C68B9D60A6EE761 /* Protocol.swift */; };
@@ -70,12 +72,14 @@
 		217DE1C24F339E27D81F4B95 /* Json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Json.swift; sourceTree = "<group>"; };
 		217DE1CBAD12C9C0FD88D3F5 /* SwiftExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		217DE1E6D86F6C51945F7DCF /* Loop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
+		217DE242A0949E0B10BBB210 /* OpaqueType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpaqueType.swift; sourceTree = "<group>"; };
 		217DE24C38FB01FB588E9940 /* SwiftExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExampleUITests.swift; sourceTree = "<group>"; };
 		217DE2B3BF180D3D42FC35E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		217DE3D8EB7439870149A7C8 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		217DE419DC9EBD114026E77C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		217DE440DACA759A7C5B5397 /* Generic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generic.swift; sourceTree = "<group>"; };
 		217DE4B7D65A4175027DBD71 /* Switch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
+		217DE4E68D2518237246477A /* Static.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Static.swift; sourceTree = "<group>"; };
 		217DE5CD4A56728D5AB62D50 /* Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
 		217DE5E1C308810AE9BA6B20 /* Defer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Defer.swift; sourceTree = "<group>"; };
 		217DE65EC4A819D291EDB9DE /* Struct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
@@ -221,6 +225,8 @@
 				217DE1C24F339E27D81F4B95 /* Json.swift */,
 				217DE440DACA759A7C5B5397 /* Generic.swift */,
 				217DE94CF759A6D6980CCBBC /* AccessControl.swift */,
+				217DE4E68D2518237246477A /* Static.swift */,
+				217DE242A0949E0B10BBB210 /* OpaqueType.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -372,6 +378,8 @@
 				217DE822042792B6DFD34F92 /* Json.swift in Sources */,
 				217DE65381A4F40A0B767AC1 /* Generic.swift in Sources */,
 				217DEB9AFDDA9039E9F6F875 /* AccessControl.swift in Sources */,
+				217DEB76C81BE2E54CE016D7 /* Static.swift in Sources */,
+				217DE050652E8FC728AC1168 /* OpaqueType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

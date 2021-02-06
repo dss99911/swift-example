@@ -61,8 +61,15 @@ class If<T> {
             //this name2 can not be referred by other.
             //print("Hello \(name2)!")
 
+            //this protect the value not null like guard
             guard let location = person["location"] else {
                 print("I hope the weather is nice near you.")
+                return
+            }
+
+            var name3:String? = ""
+            guard let temp = name3 , temp.count > 0  else {
+                print("Name is nil or an empty string. Cannot process")
                 return
             }
 
